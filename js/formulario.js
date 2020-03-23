@@ -10,7 +10,7 @@ document.querySelector('#enviar').addEventListener('click',function(){
         alert("por favor ingresa todos los campos")
         return null;
     }else{
-          let url = "https://api.whatsapp.com/send?phone=573107809191&text=*Restaurante_Caserito*%0A*Pedidos*%0A%0A*¿Cual es tu nombre?*%0A" + nombre + "%0A*tu pedido:*%0A" + pedido + "%0A*Cantidad:*%0A" + cantidad + "%0A*Tu telefono es:*%0A" + telefono + "%0A*¿Tu direccion es:?*%0A" + direccion + "%0A*si todo lo anterior es correcto por favor confirma el pedido*%0A";
+          let url = "https://api.whatsapp.com/send?phone=573208687178&text=*Restaurante_Caserito*%0A*Pedidos*%0A%0A*¿Cual es tu nombre?*%0A" + nombre + "%0A*tu pedido:*%0A" + pedido + "%0A*Cantidad:*%0A" + cantidad + "%0A*Tu telefono es:*%0A" + telefono + "%0A*¿Tu direccion es:?*%0A" + direccion + "%0A*si todo lo anterior es correcto por favor confirma el pedido*%0A";
     window.open(url);
     }
   
